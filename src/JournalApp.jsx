@@ -1,9 +1,10 @@
-import React from 'react';
+import React from "react";
+import { AppRouter } from "./components/router/AppRouter";
 
 export const JournalApp = () => {
   return (
     <div>
-      <h1>Este es el journal App</h1>
+      <AppRouter />
     </div>
-  )
-}
+  );
+};
